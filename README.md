@@ -7,8 +7,10 @@
 	- [x] Donate会使用servless实现，使用nodejs作为代理服务，开放给其他博主使用
 	- [ ] bootstrap升级到5并且去jquery化，进一步优化加载速度
 - QuickAF
-	- [ ] 计划全面升级到Jetpack，底层网络请求库有意换成okhttp
-	- [ ] 适配Android 8-13
+	- [X] 底层网络请求库抽取
+	- [X] 网络请求库支持OkHttp
+	- [ ] 计划全面升级到Kotlin + Jetpack
+	- [X] 适配Android 8-13
 	- [ ] 使用compose重写UI
 - Gradle Dependencies：新开发一款分析Gradle项目的依赖树插件，先上IntelliJ市场
  	- 生成完整的依赖树
